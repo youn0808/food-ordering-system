@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+@import url("http://fonts.cdnfonts.com/css/mustardo");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+}
+
+:root {
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-varient: rgba(77, 181, 255, 0.4);
+  --color-white: #e5e5e5;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-background-shadow: rgba(255, 255, 255, 0.1);
+  --color-background: #242424;
+  --color-navbar: #191919;
+  --color-font: #e5e5e5;
+  --color-yellow: #ffac00;
+  --color-green: #6ec5b8;
+}
